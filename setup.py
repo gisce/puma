@@ -3,7 +3,7 @@ import sys
 
 INSTALL_REQUIRES = []
 
-if sys.version_info < (3, 5):
+if sys.version_info < (3, 4):
     INSTALL_REQUIRES.append('pytracemalloc')
 
 
